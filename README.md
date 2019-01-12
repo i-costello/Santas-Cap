@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Privacy Policy
 
-You can use the [editor on GitHub](https://github.com/i-costello/Santas-Cap/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### What information does Santa's Cap collect?
+Santa's Cap collects no information. Any names, plans, jokes, etc. that the user enters are stored only within the messages sent through the app. They cannot be accessed by me, nor anyone else outside of your group chats.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Furthermore, no geolocation or other precise, real-time information is collected by Santa's Cap.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### What is user-entered information used for?
+Information entered within Santa's Cap is simply used for assigning Secret Santa partners and displaying a useful Results page to the user.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### How about advertisers?
+Santa's Cap does not currently support ads, nor do I have plans to add ads at the moment.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Contact
+If you have any questions, please do not hesitate to contact me at santascap@gmail.com.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/i-costello/Santas-Cap/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
