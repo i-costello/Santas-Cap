@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F845DC221CBBC4700132AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F845DC121CBBC4700132AEC /* Assets.xcassets */; };
+		4F845DC921CBBC4700132AEC /* Santa's Cap MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F845DC821CBBC4700132AEC /* Santa's Cap MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F845DCE21CBBC4700132AEC /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F845DCD21CBBC4700132AEC /* Messages.framework */; };
+		4F845DD121CBBC4700132AEC /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F845DD021CBBC4700132AEC /* MessagesViewController.swift */; };
+		4F845DD421CBBC4700132AEC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F845DD221CBBC4700132AEC /* MainInterface.storyboard */; };
+		4F845DD621CBBC4700132AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F845DD521CBBC4700132AEC /* Assets.xcassets */; };
+		4F845DE221CF8D6C00132AEC /* CompactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F845DE121CF8D6C00132AEC /* CompactViewController.swift */; };
+		4F845DE421CF8D7B00132AEC /* ExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F845DE321CF8D7B00132AEC /* ExpandedViewController.swift */; };
+		4F845DE621D8A15100132AEC /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F845DE521D8A15100132AEC /* JoinViewController.swift */; };
+		4F845DE821D8A16500132AEC /* JoinedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F845DE721D8A16500132AEC /* JoinedViewController.swift */; };
+		4F845DEA21DDE55100132AEC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F845DE921DDE55100132AEC /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F845DCA21CBBC4700132AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F845DB821CBBC4300132AEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F845DC721CBBC4700132AEC;
+			remoteInfo = "Secret Joel MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F845DDD21CBBC4800132AEC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F845DC921CBBC4700132AEC /* Santa's Cap MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F845DBE21CBBC4400132AEC /* Santa's Cap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Santa's Cap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F845DC121CBBC4700132AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F845DC321CBBC4700132AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F845DC821CBBC4700132AEC /* Santa's Cap MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Santa's Cap MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F845DCD21CBBC4700132AEC /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		4F845DD021CBBC4700132AEC /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		4F845DD321CBBC4700132AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4F845DD521CBBC4700132AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F845DD721CBBC4700132AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F845DE121CF8D6C00132AEC /* CompactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactViewController.swift; sourceTree = "<group>"; };
+		4F845DE321CF8D7B00132AEC /* ExpandedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedViewController.swift; sourceTree = "<group>"; };
+		4F845DE521D8A15100132AEC /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		4F845DE721D8A16500132AEC /* JoinedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinedViewController.swift; sourceTree = "<group>"; };
+		4F845DE921DDE55100132AEC /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F845DC521CBBC4700132AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F845DCE21CBBC4700132AEC /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F845DB721CBBC4300132AEC = {
+			isa = PBXGroup;
+			children = (
+				4F845DC021CBBC4400132AEC /* Secret Joel */,
+				4F845DCF21CBBC4700132AEC /* Secret Joel MessagesExtension */,
+				4F845DCC21CBBC4700132AEC /* Frameworks */,
+				4F845DBF21CBBC4400132AEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F845DBF21CBBC4400132AEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F845DBE21CBBC4400132AEC /* Santa's Cap.app */,
+				4F845DC821CBBC4700132AEC /* Santa's Cap MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F845DC021CBBC4400132AEC /* Secret Joel */ = {
+			isa = PBXGroup;
+			children = (
+				4F845DC121CBBC4700132AEC /* Assets.xcassets */,
+				4F845DC321CBBC4700132AEC /* Info.plist */,
+			);
+			path = "Secret Joel";
+			sourceTree = "<group>";
+		};
+		4F845DCC21CBBC4700132AEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F845DCD21CBBC4700132AEC /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F845DCF21CBBC4700132AEC /* Secret Joel MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4F845DD021CBBC4700132AEC /* MessagesViewController.swift */,
+				4F845DE121CF8D6C00132AEC /* CompactViewController.swift */,
+				4F845DE321CF8D7B00132AEC /* ExpandedViewController.swift */,
+				4F845DE521D8A15100132AEC /* JoinViewController.swift */,
+				4F845DE721D8A16500132AEC /* JoinedViewController.swift */,
+				4F845DE921DDE55100132AEC /* ResultsViewController.swift */,
+				4F845DD221CBBC4700132AEC /* MainInterface.storyboard */,
+				4F845DD521CBBC4700132AEC /* Assets.xcassets */,
+				4F845DD721CBBC4700132AEC /* Info.plist */,
+			);
+			path = "Secret Joel MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F845DBD21CBBC4300132AEC /* Santa's Cap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F845DDE21CBBC4800132AEC /* Build configuration list for PBXNativeTarget "Santa's Cap" */;
+			buildPhases = (
+				4F845DBC21CBBC4300132AEC /* Resources */,
+				4F845DDD21CBBC4800132AEC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F845DCB21CBBC4700132AEC /* PBXTargetDependency */,
+			);
+			name = "Santa's Cap";
+			productName = "Secret Joel";
+			productReference = 4F845DBE21CBBC4400132AEC /* Santa's Cap.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		4F845DC721CBBC4700132AEC /* Santa's Cap MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F845DDA21CBBC4800132AEC /* Build configuration list for PBXNativeTarget "Santa's Cap MessagesExtension" */;
+			buildPhases = (
+				4F845DC421CBBC4700132AEC /* Sources */,
+				4F845DC521CBBC4700132AEC /* Frameworks */,
+				4F845DC621CBBC4700132AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Santa's Cap MessagesExtension";
+			productName = "Secret Joel MessagesExtension";
+			productReference = 4F845DC821CBBC4700132AEC /* Santa's Cap MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F845DB821CBBC4300132AEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Bridge;
+				TargetAttributes = {
+					4F845DBD21CBBC4300132AEC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4F845DC721CBBC4700132AEC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F845DBB21CBBC4300132AEC /* Build configuration list for PBXProject "Santa's Cap" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F845DB721CBBC4300132AEC;
+			productRefGroup = 4F845DBF21CBBC4400132AEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F845DBD21CBBC4300132AEC /* Santa's Cap */,
+				4F845DC721CBBC4700132AEC /* Santa's Cap MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F845DBC21CBBC4300132AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F845DC221CBBC4700132AEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F845DC621CBBC4700132AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F845DD621CBBC4700132AEC /* Assets.xcassets in Resources */,
+				4F845DD421CBBC4700132AEC /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F845DC421CBBC4700132AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F845DE421CF8D7B00132AEC /* ExpandedViewController.swift in Sources */,
+				4F845DE221CF8D6C00132AEC /* CompactViewController.swift in Sources */,
+				4F845DE821D8A16500132AEC /* JoinedViewController.swift in Sources */,
+				4F845DE621D8A15100132AEC /* JoinViewController.swift in Sources */,
+				4F845DD121CBBC4700132AEC /* MessagesViewController.swift in Sources */,
+				4F845DEA21DDE55100132AEC /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F845DCB21CBBC4700132AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F845DC721CBBC4700132AEC /* Santa's Cap MessagesExtension */;
+			targetProxy = 4F845DCA21CBBC4700132AEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F845DD221CBBC4700132AEC /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F845DD321CBBC4700132AEC /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F845DD821CBBC4700132AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F845DD921CBBC4700132AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F845DDB21CBBC4800132AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4496S22C;
+				INFOPLIST_FILE = "Secret Joel MessagesExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.imcostello.Secret-Santa-Tool.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F845DDC21CBBC4800132AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4496S22C;
+				INFOPLIST_FILE = "Secret Joel MessagesExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.imcostello.Secret-Santa-Tool.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F845DDF21CBBC4800132AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4496S22C;
+				INFOPLIST_FILE = "Secret Joel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.imcostello.Secret-Santa-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F845DE021CBBC4800132AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4496S22C;
+				INFOPLIST_FILE = "Secret Joel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.imcostello.Secret-Santa-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F845DBB21CBBC4300132AEC /* Build configuration list for PBXProject "Santa's Cap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F845DD821CBBC4700132AEC /* Debug */,
+				4F845DD921CBBC4700132AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F845DDA21CBBC4800132AEC /* Build configuration list for PBXNativeTarget "Santa's Cap MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F845DDB21CBBC4800132AEC /* Debug */,
+				4F845DDC21CBBC4800132AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F845DDE21CBBC4800132AEC /* Build configuration list for PBXNativeTarget "Santa's Cap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F845DDF21CBBC4800132AEC /* Debug */,
+				4F845DE021CBBC4800132AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F845DB821CBBC4300132AEC /* Project object */;
+}
